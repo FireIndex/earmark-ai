@@ -128,8 +128,8 @@ Deno is only needed for YouTube links. Local files work without it.
 ### 2. Install
 
 ```bash
-git clone <your-repo-url> earmark
-cd earmark
+git clone https://github.com/FireIndex/earmark-ai.git
+cd earmark-ai
 
 python -m venv .venv
 # Windows
