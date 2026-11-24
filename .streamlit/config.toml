@@ -1,0 +1,16 @@
+[server]
+maxUploadSize = 1024          # MB, long meeting recordings
+
+[client]
+toolbarMode = "minimal"       # hide Deploy / developer menu for end users
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#FF5FA2"
+backgroundColor = "#FFF4E0"
+secondaryBackgroundColor = "#FFE7C2"
+textColor = "#141414"
+baseRadius = "14px"

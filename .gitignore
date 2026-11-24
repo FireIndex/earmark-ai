@@ -1,0 +1,48 @@
+# ── Secrets: never commit ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+cookies*.txt
+*.cookies
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ── Local environment ─────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Generated at runtime (audio, cache, vector DB) ────────────────────────────
+.temp/
+vector_db/
+downloades/
+downloads/
+
+# ── Media files (screenshots in docs/ are the only images we ship) ────────────
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.ogg
+*.flac
+*.aac
+
+# ── Personal scratch ──────────────────────────────────────────────────────────
+.bin/
+
+# ── Editors / OS ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
